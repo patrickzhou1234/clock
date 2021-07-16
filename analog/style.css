@@ -1,0 +1,45 @@
+html {
+  background-color: yellowgreen;
+}
+
+vl {
+  position: absolute;
+  top: 49.5vh;
+  left: 50vw;
+  height: 0.5vh;
+  border-radius: 50%;
+  transform-origin: left;
+}
+
+#hour {
+  border-left: 12.5vh solid blue;
+}
+
+#minute {
+  border-left: 16.66vh solid aqua;
+}
+
+#second {
+  border-left: 25vh solid red;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+}
+
+#clockbase {
+  width: 50vh;
+  height: 50vh;
+  position: absolute;
+  top: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
