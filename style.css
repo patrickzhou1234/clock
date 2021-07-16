@@ -1,0 +1,61 @@
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+  background-color: purple;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+}
+
+button {
+  cursor: pointer; 
+  position: absolute;
+  animation: button 8s infinite linear;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+#ana {
+  top: 20vh;
+}
+
+#dig {
+  top: 50vh;
+}
+
+#background-image {
+  z-index: -1;
+  width: 100vh;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+@keyframes button {
+  0% {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: green;}
+  75% {background-color: aqua;}
+  100% {background-color: blue;}
+}
